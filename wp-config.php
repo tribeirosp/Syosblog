@@ -27,7 +27,7 @@ define( 'WP_CACHE', true );
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'jonat537_wp623');
+define('DB_NAME', 'jonat537_wp623_blog');
 
 /** MySQL database username */
 define('DB_USER', 'jonat537_wp623');
@@ -44,8 +44,8 @@ define('DB_CHARSET', 'utf8mb4');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-define('WP_HOME', 'https://syos.com');
-define('WP_SITEURL', 'https://syos.com');
+define('WP_HOME', 'https://blog.syos.com');
+define('WP_SITEURL', 'https://blog.syos.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.

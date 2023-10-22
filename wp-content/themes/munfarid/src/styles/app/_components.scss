@@ -1,0 +1,475 @@
+// Page Main Title
+.page-main-title {
+  padding-top: 31px;
+  padding-bottom: 34px;
+  margin-bottom: 60px;
+  background-color: $primary-bg-color;
+  position: relative;
+  .entry-title {
+    font-size: 22px;
+  }
+}
+.page-main-title:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+// Breadcrumbs
+.breadcrumbs {
+  font-size: 13px;
+  color: $tertiary-color;
+  text-transform: uppercase;
+  a {
+    color: $tertiary-color;
+  }
+  text-transform: uppercase;
+  span:not(:last-child):after {
+    content: ">";
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+/* pagination */
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link,
+.pagination > li > a,
+.nav-links > span,
+.nav-links > a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  background-color: $primary-bg-color;
+  color: $primary-color;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0;
+}
+
+.page-item.active .page-link,
+.nav-links > .current {
+  z-index: 2;
+  color: $primary-color;
+  background-color: $accent-color;
+}
+
+// Footer
+.footer  .entry-content {
+  ul {
+    list-style: none;
+    padding: 0;
+    li:not(:last-child) {
+      margin-bottom: 14px;
+      a {
+          
+        border-bottom: 1px solid #dfddd9;
+        padding-bottom: 8px;
+        
+      }
+    }
+  }
+}
+
+// magnific
+.popup_gallery img {
+  cursor: zoom-in;
+}
+
+.nav-tabs {
+  margin-bottom: 18px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 15px;
+  .nav-link {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.3rem 0;
+  }
+  .nav-item:not(:last-child) {
+    margin-right: 40px;
+  }
+  .nav-link {
+    border-bottom: solid 2px transparent;
+    &:focus,
+    &:hover {
+      border-color: transparent;
+    }
+  }
+  .nav-item.show .nav-link,
+  .nav-link.active {
+    color: $accent-color;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+@media all and (max-width: 800px) {
+  .nav-tabs {
+    .nav-item:not(:last-child) {
+      margin-right: 20px;
+    }
+    .nav-link {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/**! 07. Accordion **/
+
+.card {
+  border: 1px solid #f4f4f4;
+  border-radius: 0;
+  margin: 0 0 1em;
+  .card-header {
+    padding: 15px 30px;
+    margin-bottom: 0;
+    background-color: $primary-bg-color;
+    border-bottom: 1px solid #f4f4f4;
+    button {
+      padding: 0;
+      background: transparent;
+      box-shadow: none;
+      &:hover {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+/**! 08. Button **/
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-light {
+  color: #212529;
+  background-color: $primary-bg-color;
+  border-color: #f4f4f4;
+  &:hover {
+    background-color: #ddd;
+    border-color: #ddd;
+  }
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #007bff;
+  background-color: transparent;
+  box-shadow: none;
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  background-color: transparent;
+  background-image: none;
+  border-color: #6c757d;
+  box-shadow: none;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  background-color: transparent;
+  background-image: none;
+  border-color: #28a745;
+  box-shadow: none;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dc3545;
+  box-shadow: none;
+}
+
+.btn-outline-warning {
+  color: #ffc107;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ffc107;
+  box-shadow: none;
+}
+
+.btn-outline-info {
+  color: #17a2b8;
+  background-color: transparent;
+  background-image: none;
+  border-color: #17a2b8;
+  box-shadow: none;
+}
+
+.btn-outline-light {
+  color: #999;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f8f9fa;
+  box-shadow: none;
+}
+
+.btn-outline-dark {
+  color: #343a40;
+  background-color: transparent;
+  background-image: none;
+  border-color: #343a40;
+  box-shadow: none;
+}
+
+/**! 09. Dropcaps **/
+
+.drop-caps {
+  float: left;
+  position: relative;
+  top: 4px;
+  margin-right: 0.3em;
+  margin-bottom: 0.1em;
+  padding-bottom: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 0.8em;
+  font-family: Arial, sans-serif;
+  padding: 8px 12px;
+  font-size: 4em;
+  color: #fff;
+  background: #252525;
+}
+
+.drop-caps.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 3em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+/**! 10. Galleries **/
+
+.effect-hover-opacity-low img {
+  -webkit-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  background: #000;
+}
+
+/**! 11. Price Plan  **/
+
+.pricing_item {
+  display: inline-block;
+  padding: 28px 24px 40px 24px;
+  width: 100%;
+  border: solid 1px #ebebeb;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.pricing_item_title {
+  margin-bottom: 28px;
+}
+
+.pricing_item_price {
+  font-weight: 700;
+  display: block;
+  font-size: 38px;
+  line-height: 1em;
+  color: #252525;
+}
+
+.pricing_item_price_info {
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.pricing_item_features_list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 27px;
+  li {
+    position: relative;
+    display: table;
+    .fa {
+      padding-right: 0.5rem;
+    }
+  }
+}
+
+/**! 12. Team Meamber **/
+
+.member-content {
+  margin-bottom: 30px;
+  .member-text {
+    padding-top: 20px;
+    .member-name {
+      margin-bottom: 7px;
+    }
+    .member-tag {
+      margin-bottom: 6px;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+  }
+}
+
+/**! 13. Testimonial **/
+
+.testimonials {
+  .testimonial {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    p {
+      margin-bottom: 20px;
+    }
+    .testimonial-author-name {
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+  .testimonial-author-tag {
+    margin-left: 8px;
+  }
+  .testimonial-author-image img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin: 0 auto 30px auto;
+  }
+  .slick-prev,
+  .slick-next {
+    background: transparent !important;
+    box-shadow: none;
+    &:hover {
+      background: transparent;
+      box-shadow: none;
+    }
+  }
+}
+
+/**! 14. Icon **/
+
+.icon-circle i {
+  color: #fff;
+  background-color: #333;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.icon-boxed i {
+  color: #fff;
+  background-color: #333;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+
+/**! 15. countdown **/
+
+.countdown {
+  .countdown_value {
+    display: inline-block;
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 50px;
+    color: $primary-color;
+  }
+  .countdown_lable {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .countdown .countdown_value {
+    font-size: 30px;
+    line-height: 32px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/**  footer nav **/
+
+.footer-nav li,
+.footer_nav li {
+  display: inline !important;
+  padding: 0 0.5em;
+}
+
+.footer-nav li:last-child,
+.footer_nav li:last-child {
+  padding-right: 0;
+}

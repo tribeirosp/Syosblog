@@ -1,0 +1,190 @@
+html {
+    font-size: 100%;
+}
+
+@media all and (max-width: 768px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    color: $primary-color;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.01rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: $primary-color;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+.h1 {
+    font-size: 40px;
+}
+
+h2,
+.h2 {
+    font-size: 32px;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+}
+
+h4,
+.h4 {
+    font-size: 24px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+th {
+    padding: 0 0.7rem 0 0.7rem;
+}
+
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+    margin-bottom: 1.3em;
+}
+
+pre {
+    background: #f7f7f7;
+    padding: 5px 20px;
+}
+
+ul,
+ol {
+    line-height: 1.85714286em;
+}
+
+ul.bullets {
+    list-style: inside;
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+blockquote {
+    font-size: 1.78571429em;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    border-left: 0;
+}
+
+strong {
+    font-weight: 600;
+}
+
+hr {
+    margin: 30px 0;
+    border-color: #ededed;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+p a {
+    color: $primary-color;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+a:hover,
+a:focus,
+.page-link:focus,
+.page-link:hover {
+    color: #5d5d5d;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+//  blockquote
+blockquote,
+.blockquote {
+    margin-bottom: 23px;
+    color: $primary-color;
+    font-size: 16px;
+    line-height: 1.8;
+    border-left: 4px solid $accent-color;
+    padding-left: 1em;
+    p {
+        margin-bottom: 10px;
+    }
+    cite {
+        color: #637282;
+        font-size: 13px;
+        font-style: normal;
+    }
+}
+
+.blockquote-small {
+    font-size: 1.4em;
+}
+
+.blockquote-footer {
+    background: transparent;
+    padding: 0;
+}
+
+address {
+    margin: 20px 0;
+}

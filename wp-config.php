@@ -46,6 +46,9 @@ define('DB_COLLATE', '');
 
 define('WP_HOME', 'https://blog.syos.com');
 define('WP_SITEURL', 'https://blog.syos.com');
+define( 'WP_CONTENT_URL', 'https://blog.syos.com/wp-content/'  );
+//define( 'WP_CONTENT_DIR', '/home/jonat537/public_html/blog/wp-content/' );
+define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -87,8 +90,8 @@ $table_prefix  = 'wpar_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', true);
-define('WP_DEBUG_LOG', true);
+define('WP_DEBUG', false);
+define('WP_DEBUG_LOG', false);
 define('WP_DEBUG_DISPLAY', false);
 define('WP_MEMORY_LIMIT', '256M');
 

@@ -1,0 +1,101 @@
+
+@import "wp/_wp-elements";
+/**!**************/
+
+/**! Contents **/
+
+/**! 01. variables **/
+
+/**! 02. Typography **/
+
+/**! 03. Bootstrap Override  **/
+
+/**! 04. Headers and Navbar **/
+
+/**! 05. components 
+        - Page Title
+        - Breadcrumbs
+        - Pagination
+        - Footer
+        - popup_gallery
+        - Tabs
+        - Accordion
+        - Button
+        - Dropcaps
+        - Galleries
+        - Price Plan
+        - Team Meamber
+        - Testimonial
+        - Icon
+        - countdown
+        - Search form
+        - Simple Entry List
+
+************************/
+
+/**! 6. widgets 
+************************/
+
+/**! 7. Blog 
+        - Single post
+        - Post Navigation
+************************/
+
+/**! 8. Blog Sliders  
+        - Blog slider dabba 1
+        - Blog slider dabba 2
+************************/
+
+/**! 9. Comments area **/
+
+/**! 10. Shop 
+        - Products list
+        - Sinlge product
+************************/
+
+/**! 11. Slider **/
+
+/**! 12. Utilities **/
+
+/**!**************/
+
+
+@import "app/variables";
+
+/**! 02. Typography **/
+@import "app/typography";
+
+/**! 03. Bootstrap Override  **/
+@import "app/bootstrap-override";
+
+/**! 04. Headers and Navbar **/
+@import "app/navbar";
+
+/**! 05. components **/
+@import "app/components";
+
+/**! 6. widgets **/
+@import "app/widgets";
+
+/**! 7. Blog **/
+@import "app/blog";
+
+/**! 8. Blog Sliders  **/
+@import "app/blog-slider";
+
+/**! 9. Comments area **/
+@import "app/comments-area";
+
+/**! 10. Shop **/
+@import "app/shop";
+
+/**! 11. Slider **/
+@import "app/slider";
+
+/**! 12. Utilities **/
+@import "app/utilities";
+
+/**! 12.B Spacing and Height Utilities **/
+@import "app/utilities-spacing-and-height";
+
+

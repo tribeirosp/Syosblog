@@ -1,0 +1,28 @@
+.widget {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.widget-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+// Search form
+.search-form {
+    .input-group .form-control {
+        border: none;
+        background: $primary-bg-color;
+        min-height: 60px;
+        padding: 0.375rem 5px 0.375rem 25px;
+        border-radius: 0;
+    }
+    .btn {
+        min-height: 60px;
+        background: $primary-bg-color;
+        border: none;
+        padding: 0.375rem 30px 0.375rem 5px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

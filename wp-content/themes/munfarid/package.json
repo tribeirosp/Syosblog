@@ -1,0 +1,59 @@
+{
+  "name": "munfarid",
+  "version": "1.0.5",
+  "description": "",
+  "scripts": {
+    "dev": "webpack --watch --progress --hide-modules --mode development",
+    "build": "webpack --progress --hide-modules --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/amjadali/munfarid.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Amjad Ali",
+    "email": "support@energeticthemes.com",
+    "url": "https://www.energeticthemes.com"
+  },
+  "license": "",
+  "bugs": {
+    "url": "https://gitlab.com/amjadali/munfarid/issues"
+  },
+  "homepage": "http://energeticthemes.com/templates/dabba/index.html",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "autoprefixer": "^9.4.2",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "cssnano": "^4.1.7",
+    "file-loader": "^2.0.0",
+    "jsonminify": "^0.4.1",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-subresource-integrity": "^1.3.1",
+    "webpackbar": "^3.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.1.3",
+    "imagesloaded": "^4.1.4",
+    "instafeed.js": "^1.4.1",
+    "jquery": "^3.3.1",
+    "jquery-countdown": "^2.2.0",
+    "jquery-countto": "^1.2.0",
+    "magnific-popup": "^1.1.0",
+    "popper.js": "^1.14.6",
+    "slick-carousel": "^1.8.1"
+  }
+}

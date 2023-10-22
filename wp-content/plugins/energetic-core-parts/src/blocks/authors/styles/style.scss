@@ -1,0 +1,44 @@
+.wp-block-energetic-core-parts-authors {
+  .author-block {
+    margin-bottom: 50px;
+  }
+  .author-img-box {
+    margin-bottom: 25px;
+  }
+  .d-md-flex {
+    .author-img-box {
+      margin-bottom: 30px;
+      margin-right: 30px;
+      img {
+        max-width: 200px;
+      }
+    }
+    .col-lg-6 .author-img-box {
+      img {
+        max-width: 130px;
+      }
+    }
+  }
+  .author-block-textbody {
+    margin-bottom: 30px;
+    .author-name-block {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .author-block-bio {
+      margin-bottom: 20px;
+    }
+    .author-block-meta {
+      font-size: 14px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      div {
+        margin-bottom: 10px;
+      }
+      a {
+        text-transform: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.editor-block-list__block[data-type="energetic-core-parts/pricing-table-item"] {
+	width: 100%;
+
+	.wp-block-energetic-core-parts-pricing-table-item {
+		margin: 0;
+	}
+	h4 {
+		
+		font-weight: 700;
+	}
+	.pricing-table__price {
+		display: flex !important;
+
+		.blocks-editable {
+			display: inline-block;
+		}
+	}
+
+	.editor-block-list__block-edit {
+		margin-bottom: 12px;
+		margin-top: 12px;
+	}
+
+	.block-library-button__inline-link {
+		width: 100%;
+		margin-top: 14px;
+
+		> div {
+			width: calc(100% - 72px);
+		}
+
+		.editor-url-input + .editor-url-input {
+			margin-top: 2px;
+		}
+	}
+}

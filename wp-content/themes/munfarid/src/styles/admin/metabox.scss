@@ -1,0 +1,28 @@
+/* Meta boxes */
+.etcodes-meta-table {
+    tr {
+      border-top: 1px solid #eee;
+      &:first-child {
+        border-top: none;
+      }
+    }
+    th {
+      padding: 20px 15px;
+      padding-right: 5%;
+      width: 35%;
+    }
+    label span {
+      display: block;
+      color: #999;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 20px;
+      margin: 3px 0 0px 0;
+    }
+  }
+  
+  /*  */
+  
+  .post-type-etcodes-footer .edit-slug-box {
+    display: none;
+  }

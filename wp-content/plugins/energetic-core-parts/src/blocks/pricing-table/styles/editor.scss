@@ -1,0 +1,41 @@
+.editor-block-list__block[data-type="energetic-core-parts/pricing-table"] {
+
+	.wp-block-energetic-core-parts-pricing-table {
+
+		&__inner {
+			margin-left: 0 !important;
+			margin-right: 0  !important;
+		}
+
+		.editor-inner-blocks {
+			width: 100%;
+
+			> .editor-block-list__layout {
+				display: flex;
+				height: calc(100% - 36px);
+			}
+		}
+	}
+
+	&[data-align="wide"],
+	&[data-align="full"] {
+
+		.editor-block-list__block {
+			max-width: none;
+		}
+	}
+}
+
+.energetic-core-parts__toolbar--numeral {
+	display: inline-flex;
+
+	.components-button[data-subscript]::after {
+		font-size: 17px;
+		right: 13px;
+		bottom: 0.68em;
+	}
+
+	.components-button[data-subscript="1"]::after {
+		right: 14px;
+	}
+}

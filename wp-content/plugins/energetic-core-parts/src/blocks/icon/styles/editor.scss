@@ -1,0 +1,10 @@
+.wp-block-energetic-core-parts-icon {
+  .editor-block-list__layout {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    
+    .editor-block-list__block:not(:first-child) {
+      padding-left: 10px !important;
+    }
+  }
+}

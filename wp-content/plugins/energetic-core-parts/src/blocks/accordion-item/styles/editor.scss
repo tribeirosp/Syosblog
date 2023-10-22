@@ -1,0 +1,20 @@
+.wp-block-energetic-core-parts-accordion-item {
+
+	&__title {
+		cursor: inherit;
+		padding: 10px 15px !important;
+
+		&::after {
+			display: none;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&--open &__title,
+	&.is-selected &__title {
+		border-radius: 4px 4px 0 0;
+	}
+}

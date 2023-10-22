@@ -1,0 +1,61 @@
+.wp-block-energetic-core-parts-testimonial {
+  margin: 20px 0;
+
+  .testimonial {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .testimonial p {
+    margin-bottom: 20px;
+  }
+
+  .testimonial .testimonial-author-name {
+    font-weight: 600;
+    font-size: 18px;
+     
+  }
+  .testimonial-author-tag {
+    margin-left: 8px;
+  }
+  
+  .testimonial-author-image img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin: 0 auto 30px auto;
+  }
+  .owl-nav button.owl-next,
+  .owl-nav button.owl-prev,
+  button.owl-dot {
+    font-size: 60px;
+    line-height: 60px;
+    color: #637282 !important;
+  }
+  .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+  }
+  .owl-dots {
+    position: absolute;
+    bottom: -30px;
+  }
+
+  /* testimonials_box */
+
+  .testimonials_box .testimonial {
+    text-align: left;
+    border: solid 1px #ededed;
+    padding: 60px 30px 35px 30px;
+  }
+
+  /* testimonials_image_box */
+
+  .testimonials_box.testimonials_image_box .testimonial {
+    padding: 0;
+  }
+}

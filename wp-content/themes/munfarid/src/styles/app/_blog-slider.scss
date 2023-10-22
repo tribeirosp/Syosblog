@@ -1,0 +1,190 @@
+// Blog slider munfarid 1
+.blog-slider-munfarid-1 {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    article {
+        margin: 0;
+        max-width: 100%;
+        position: relative;
+        .entry-content-wrapper {
+            background: $primary-bg-color;
+            padding: 30px 20px;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+            .entry-title {
+                font-size: 21px;
+                margin-top: 0;
+                margin-bottom: 12px;
+            }
+            .entry-content,
+            .entry-read-more {
+                display: none;
+            } .entry-content p {
+                margin: 0;
+                padding: 0 !important;
+            }
+        }
+        @media (min-width:420px) {
+            .entry-content-wrapper {
+                padding: 40px;
+                .entry-title {
+                    font-size: 24px;
+                }
+                .entry-content,
+                .entry-read-more {
+                    display: block;
+                }
+                .entry-content p {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+        @media (min-width:992px) {
+            .entry-content-wrapper {
+                padding: 40px;
+                max-width: 550px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+    article:not(last-child) {
+        margin-right: 30px;
+    }
+    .slick-prev,
+    .slick-next {
+        top: initial;
+        bottom: -28px;
+        box-shadow: none;
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev {
+        left: initial;
+        right: 70px;
+    }
+    @media (min-width:992px) {
+        article {
+            max-width: 945px;
+        }
+        .slick-prev,
+        .slick-next {
+            top: initial;
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+            bottom: 9px;
+        }
+    }
+    @media (max-width:420px) {
+        .slick-prev,
+        .slick-next {
+            bottom: initial;
+            box-shadow: none;
+            top: 0;
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+        }
+    }
+    .slick-active .entry-content-wrapper {
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0s;
+    }
+}
+
+// Blog slider munfarid 2
+.blog-slider-munfarid-2 {
+    article {
+        width: 100%;
+        background: $primary-bg-color;
+        margin-bottom: 0;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        .entry-content-wrapper {
+            padding: 30px;
+            .entry-content,
+            .entry-read-more {
+                display: none;
+            }
+            .entry-title {
+                font-size: 21px;
+                margin-top: 0;
+                margin-bottom: 12px;
+            }
+        }
+        @media (min-width:420px) {
+            .entry-content-wrapper {
+                padding: 40px;
+                .entry-title {
+                    font-size: 28px;
+                    margin-top: 0;
+                    margin-bottom: 12px;
+                }
+                .entry-content,
+                .entry-read-more {
+                    display: block;
+                }
+            }
+        }
+        @media (min-width:992px) {
+            .entry-content-wrapper {
+                padding: 60px;
+            }
+        }
+        @media (min-width: 1200px) {
+            .entry-media,
+            .entry-content-wrapper {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+    }
+    .slick-prev,
+    .slick-next {
+        top: initial;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+        bottom: 0;
+        box-shadow: none;
+    }
+    @media (min-width:992px) {
+        .slick-prev,
+        .slick-next {
+            bottom: 0;
+        }
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev {
+        left: initial;
+        right: 70px;
+    }
+    @media (max-width:420px) {
+        .slick-prev,
+        .slick-next {
+            bottom: initial;
+            box-shadow: none;
+            top: 0;
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+        }
+    }
+}

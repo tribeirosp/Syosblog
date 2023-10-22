@@ -1,0 +1,69 @@
+.wp-block-energetic-core-parts-accordion-item {
+	border-radius: 4px;
+	margin: 0 0 1em;
+	word-break: break-word;
+
+	&__title {
+		border-radius: 4px;
+		cursor: pointer !important;
+		padding: 15px 30px;
+		position: relative;
+
+		&:not(.has-background) {
+			background:  #f2f2f2;
+		}
+
+		&::after {
+			border-radius: 4px;
+			bottom: 0;
+			content: "";
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			transition: background 100ms cubic-bezier(0.694, 0, 0.335, 1);
+		}
+
+		&:hover::after {
+			background: rgba(#000, 0.0275);
+		}
+
+		&:focus {
+			outline: 1px dotted #aaa;
+			outline-offset: -4px;
+		}
+
+		p {
+			display: inline;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	details[open] summary {
+		border-radius: 4px 4px 0 0;
+	}
+
+	&__content {
+		border-radius: 0 0 4px 4px;
+		padding: 15px 20px;
+		border: 1px solid currentColor;
+		margin-top: -1px;
+
+		&:not(.has-border-color) {
+			color:  #f2f2f2;
+		}
+	}
+
+	&__text {
+		margin-top: 0;
+		margin-bottom: 0.25em;
+		color: #191e23;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}

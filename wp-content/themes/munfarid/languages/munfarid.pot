@@ -1,0 +1,1201 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Munfarid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-17 10:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: theme-includes/helpers.php:467 theme-includes/helpers.php:490
+msgid " "
+msgstr ""
+
+#: theme-includes/hooks.php:298
+msgid " (required) \" "
+msgstr ""
+
+#: theme-includes/hooks.php:301
+msgid " (required)\""
+msgstr ""
+
+#: theme-includes/hooks.php:248
+msgid " at"
+msgstr ""
+
+#. 1: comment date, 2: comment time
+#: theme-includes/sub-inc/class-munfarid-walker-comment.php:89
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: theme-includes/helpers.php:526 theme-includes/helpers.php:528
+#: theme-includes/helpers.php:530
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. %s: comment author link
+#: theme-includes/sub-inc/class-munfarid-walker-comment.php:69
+#, php-format
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr ""
+
+#: theme-includes/helpers.php:465 theme-includes/helpers.php:488
+msgid "&copy; "
+msgstr ""
+
+#: comments.php:42 comments.php:65
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: 404.php:24
+msgid "&lt; Back to Home"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:870
+msgid "1 columns"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:871
+msgid "2 columns"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:872
+msgid "3 columns"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:873
+msgid "4 columns"
+msgstr ""
+
+#: 404.php:13
+msgid "404"
+msgstr ""
+
+#: archive.php:71 index.php:49 search.php:72
+msgid "<"
+msgstr ""
+
+#: archive.php:72 index.php:50 search.php:73
+msgid ">"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:212
+msgid "Absolute Header"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:227
+msgid "Absolute Header bg opacity"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:116
+msgid "Absolute Header?"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:715
+msgid "Accent color"
+msgstr ""
+
+#: theme-includes/sub-inc/menu-navwalker.php:221
+msgid "Add a menu"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:945
+msgid "Add the post author metadata."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:61
+msgid "Adjust the color for this header background."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:80
+msgid "Adjust the color for this header navigation."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:24
+msgid "Adjust the color for this page background."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:202
+msgid "Adjust the color for this page title container background."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:944
+msgid "Author"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1114
+msgid "Author Box"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1292
+msgid "Background Color Overlay"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1266
+msgid "Background Image Position"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1280
+msgid "Background Scroll with Page"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1246
+msgid "Background Size"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:769
+msgid "Blog"
+msgstr ""
+
+#: theme-includes/helpers.php:532
+msgid "Blog Archives"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:784
+msgid "Blog Full Width"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:815
+msgid "Blog page layout"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:797
+#: theme-includes/customizer/customizer.php:925
+msgid "Blog Page Width"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:842
+msgid "Blog Style"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:498
+msgid "Body"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:464
+#: theme-includes/customizer/customizer.php:532
+#: theme-includes/customizer/customizer.php:642
+msgid "Bold: 700"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:461
+#: theme-includes/customizer/customizer.php:529
+#: theme-includes/customizer/customizer.php:639
+msgid "Book: 300"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:163
+msgid "Bottom Padding"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1163
+msgid "Breadcrumb"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1074
+msgid "Breadcrumbs"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:210
+msgid "Browse & Upload"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1437
+msgid "Button Background Color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:749
+msgid "Button background color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:760
+msgid "Button background hover color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1428
+msgid "Button icon color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:727
+msgid "Button text color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:738
+msgid "Button text hover color"
+msgstr ""
+
+#: theme-includes/sub-inc/post-parts.php:39
+msgid "By "
+msgstr ""
+
+#: theme-includes/meta/meta-boxes.php:196
+msgid "Cancel"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:852
+msgid "Card blog"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1338
+msgid "Catalog Page Full Width"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:958
+msgid "Categories"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:105
+#: theme-includes/meta/meta-page.php:53 theme-includes/meta/meta-page.php:194
+msgid "Center"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:42
+msgid "Center Align logo with Hamburger Menu"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:716
+msgid "Choose the most dominant theme color."
+msgstr ""
+
+#: comments.php:39 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:972
+msgid "Comments Counter metadata"
+msgstr ""
+
+#: theme-includes/class-tgm-plugin-activation.php:53
+msgid "Contact Form 7"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1225
+msgid "Container Background Color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1235
+msgid "Container Background Image"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1194
+msgid "Container Full Width"
+msgstr ""
+
+#: theme-includes/meta/meta-boxes.php:183
+msgid "Create Gallery"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:72
+msgid "Dark"
+msgstr ""
+
+#: theme-includes/hooks.php:77
+msgid "Dark blue"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:458
+#: theme-includes/customizer/customizer.php:480
+#: theme-includes/customizer/customizer.php:526
+#: theme-includes/customizer/customizer.php:548
+#: theme-includes/customizer/customizer.php:636
+#: theme-includes/customizer/customizer.php:658
+#: theme-includes/customizer/customizer.php:1251
+#: theme-includes/customizer/customizer-controls/control-google-font.php:27
+msgid "Default"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:35
+msgid "Default "
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:180
+msgid "Display Page Title:"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:140
+msgid "Display Search bar in header on this page?"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:147
+msgid "Display Shopping cart in header on this page?"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:133
+msgid "Display Social Icons in header on this page?"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:154
+msgid "Display top header bar on this page?"
+msgstr ""
+
+#: theme-includes/hooks.php:260
+#: theme-includes/sub-inc/class-munfarid-walker-comment.php:97
+msgid "Edit"
+msgstr ""
+
+#: theme-includes/meta/meta-boxes.php:190
+#: theme-includes/meta/meta-boxes.php:197
+#: theme-includes/meta/meta-boxes.php:306
+#: theme-includes/meta/meta-boxes.php:308
+msgid "Edit Gallery"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1115
+msgid "Enable or disable Author Box that display in the single post."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1075
+msgid "Enable or disable Breadcrumbs that display in the single post."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:959
+msgid "Enable or disable categories that display in the post metadata."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:973
+msgid "Enable or disable comments counter that display in the post metadata."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:885
+msgid "Enable or disable Featured Image that display in the blog."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:987
+msgid "Enable or disable Post Date that display in the post metadata."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:912
+msgid "Enable or disable Post Excerpt that display in the blog."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1129
+msgid "Enable or disable Post Navigation that display in the single post."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1015
+msgid "Enable or disable Read More button that display in the blog loop."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1143
+msgid "Enable or disable Related Articles that display in the single post."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1001
+msgid "Enable or disable Tags that display in the post metadata."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1449
+msgid "Enabling this option will activate smooth scrolling."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1418
+msgid "Enabling this option will display a Back to Top button."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:305
+msgid "Enabling this option will show top bar area"
+msgstr ""
+
+#: theme-includes/class-tgm-plugin-activation.php:26
+msgid "Energetic Core Parts"
+msgstr ""
+
+#. Author of the theme
+msgid "Energetic Themes"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:465
+#: theme-includes/customizer/customizer.php:533
+#: theme-includes/customizer/customizer.php:643
+msgid "Extra Bold: 800"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:459
+#: theme-includes/customizer/customizer.php:527
+#: theme-includes/customizer/customizer.php:637
+msgid "Extra Light: 100"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:884
+msgid "Featured Image"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1252
+msgid "Fill Screen"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1253
+msgid "Fit to Screen"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:492
+#: theme-includes/customizer/customizer.php:580
+#: theme-includes/customizer/customizer.php:690
+msgid "Font Color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:701
+msgid "Font Hover and Active Color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:562
+#: theme-includes/customizer/customizer.php:672
+msgid "Font Size"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:475
+#: theme-includes/customizer/customizer.php:543
+#: theme-includes/customizer/customizer.php:653
+msgid "Font Style"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:452
+#: theme-includes/customizer/customizer.php:520
+#: theme-includes/customizer/customizer.php:630
+msgid "Font Weight"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1459
+msgid "Footer"
+msgstr ""
+
+#: theme-includes/menus.php:16
+msgid "Footer Menu"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:825
+#: theme-includes/customizer/customizer.php:1057
+#: theme-includes/customizer/customizer.php:1379
+msgid "Full width"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:29
+#: theme-includes/customizer/customizer.php:1393
+msgid "General"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:773
+msgid "General Posts"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own language.
+#: theme-includes/helpers.php:582
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:25
+#: theme-includes/customizer/customizer.php:45
+#: theme-includes/customizer/customizer.php:49
+#: theme-includes/customizer/customizer.php:53
+#: theme-includes/customizer/customizer.php:57
+#: theme-includes/customizer/customizer.php:61
+#: theme-includes/customizer/customizer.php:65
+#: theme-includes/customizer/customizer.php:69
+msgid "Header"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:130
+msgid "Header Background Color"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:58
+msgid "Header Background Color:"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:96
+msgid "Header bottom padding."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:93
+msgid "Header Bottom Padding:"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:181
+msgid "Header Full Width"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:101
+msgid "Header Full Width?"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:77
+msgid "Header Nav Color:"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:111
+msgid "Header right left padding."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:108
+msgid "Header Side Padding:"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:40
+msgid "Header Style"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:29
+msgid "Header Style:"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:293
+msgid "Header Top Bar"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:88
+msgid "Header top padding."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:85
+msgid "Header Top Padding:"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:430
+msgid "Headings"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.energeticthemes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.energeticthemes.com/themes/munfarid"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:453
+#: theme-includes/customizer/customizer.php:521
+#: theme-includes/customizer/customizer.php:631
+msgid "Important: Not all fonts support every font-weight."
+msgstr ""
+
+#: theme-includes/meta/meta-boxes.php:73 theme-includes/meta/meta-boxes.php:121
+msgid "Insert"
+msgstr ""
+
+#: theme-includes/helpers.php:371
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: theme-includes/helpers.php:379
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: template-parts/post/content-none.php:17
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:482
+#: theme-includes/customizer/customizer.php:550
+#: theme-includes/customizer/customizer.php:660
+msgid "Italic"
+msgstr ""
+
+#: theme-includes/hooks.php:276
+msgid "Leave a Comment"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:87
+#: theme-includes/customizer/customizer.php:104
+#: theme-includes/meta/meta-page.php:52 theme-includes/meta/meta-page.php:193
+msgid "Left"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:39
+msgid "Left Align"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:821
+#: theme-includes/customizer/customizer.php:1053
+#: theme-includes/customizer/customizer.php:1375
+msgid "Left sidebar"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:73
+msgid "Light"
+msgstr ""
+
+#: theme-includes/hooks.php:82
+msgid "Light blue"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:460
+#: theme-includes/customizer/customizer.php:528
+#: theme-includes/customizer/customizer.php:638
+msgid "Light: 200"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:591
+msgid "Link Color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:602
+msgid "Link Hover Color"
+msgstr ""
+
+#: theme-includes/sub-inc/jetpack.php:55
+msgid "Load More..."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:40
+msgid "Logo & Hamburger Menu Vertical Align"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:36
+msgid "Logo & Menu Vertical Align"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:415
+msgid "Logo - Light"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:82
+msgid "Logo Align"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:37
+msgid "Logo Between Two Menus"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:66
+msgid "Logo Color Scheme:"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:396
+msgid "Logo Max Width"
+msgstr ""
+
+#: theme-includes/class-tgm-plugin-activation.php:48
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:785
+msgid "Make the Blog width full width or Boxed"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:119
+msgid "Make the header position absolute on this page?"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:213
+msgid "Make the header position absolute?"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:126
+msgid "Make the header stick with the scroll on this page?"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:247
+msgid "Make the header stick with the scroll."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1339
+msgid "Make the Product Catalog page width full width or Boxed"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:608
+msgid "Menu"
+msgstr ""
+
+#: theme-includes/sub-inc/header.php:73 theme-includes/sub-inc/header.php:98
+#: theme-includes/sub-inc/header.php:119 theme-includes/sub-inc/header.php:132
+#: theme-includes/sub-inc/header.php:152 theme-includes/sub-inc/header.php:161
+#: theme-includes/sub-inc/header.php:176 theme-includes/sub-inc/header.php:203
+#: theme-includes/sub-inc/header.php:223
+msgid "menu"
+msgstr ""
+
+#: theme-includes/helpers.php:528
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. Name of the theme
+msgid "Munfarid"
+msgstr ""
+
+#. Description of the theme
+msgid "Munfarid - A WordPress Theme For Blog &amp; Shop"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:99
+#: theme-includes/meta/meta-page.php:46
+msgid "Nav Align"
+msgstr ""
+
+#: comments.php:43 comments.php:66
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: theme-includes/sub-inc/post-parts.php:124
+msgid "Next Post"
+msgstr ""
+
+#: theme-includes/helpers.php:258 theme-includes/helpers.php:279
+msgid "None"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:481
+#: theme-includes/customizer/customizer.php:549
+#: theme-includes/customizer/customizer.php:659
+msgid "Normal"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:462
+#: theme-includes/customizer/customizer.php:530
+#: theme-includes/customizer/customizer.php:640
+msgid "Normal: 400"
+msgstr ""
+
+#: template-parts/post/content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: theme-includes/customizer/customizer.php:1304
+msgid "Overlay Color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1316
+msgid "Overlay Color opacity"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:21
+msgid "Page Background Color:"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:15
+msgid "Page Settings"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1154
+msgid "Page Title"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:199
+msgid "Page Title Container Background Color:"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:207
+msgid "Page Title Container Background Image:"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:174
+msgid "Page Title Settings"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1351
+msgid "Page Width"
+msgstr ""
+
+#: page.php:32 theme-includes/sub-inc/post-parts.php:108
+msgid "Pages:"
+msgstr ""
+
+#: search.php:37 search.php:52 template-parts/post/content-single.php:31
+#: theme-includes/sub-inc/post-parts.php:26
+msgid "Permalink to the post"
+msgstr ""
+
+#: theme-includes/hooks.php:227
+msgid "Pingback:"
+msgstr ""
+
+#: theme-includes/hooks.php:284
+msgid "Post Comment"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:986
+msgid "Post Date metadata"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:911
+msgid "Post Excerpt"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1128
+msgid "Post Navigation"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:865
+msgid "Posts Columns"
+msgstr ""
+
+#: theme-includes/sub-inc/post-parts.php:123
+msgid "Previous Post"
+msgstr ""
+
+#: theme-includes/menus.php:13
+msgid "Primary Menu"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1369
+msgid "Product Catalog page layout"
+msgstr ""
+
+#: theme-includes/sub-inc/post-parts.php:270
+msgid "Read More"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1014
+msgid "Read More Button"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1028
+msgid "Read More button lable"
+msgstr ""
+
+#: template-parts/post/content-none.php:12
+#, php-format
+msgid ""
+"Ready to publish your first post? <a class=\"dynamic_load\"  href=\"%1$s\">"
+"Get started here</a>."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1142
+#: theme-includes/sub-inc/post-parts.php:236
+msgid "Related Articles"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1254
+msgid "Repeat"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:88
+#: theme-includes/customizer/customizer.php:106
+#: theme-includes/meta/meta-page.php:54 theme-includes/meta/meta-page.php:195
+msgid "Right"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:829
+#: theme-includes/customizer/customizer.php:1061
+#: theme-includes/customizer/customizer.php:1383
+msgid "Right sidebar"
+msgstr ""
+
+#: theme-includes/meta/meta-boxes.php:233
+msgid "Save Gallery"
+msgstr ""
+
+#: theme-includes/meta/meta-boxes.php:127
+#: theme-includes/meta/meta-boxes.php:243
+msgid "Saving..."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1417
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:273
+#: theme-includes/customizer/customizer.php:331
+msgid "Search bar"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:137
+msgid "Search bar?"
+msgstr ""
+
+#: search.php:18
+msgid "Search here"
+msgstr ""
+
+#: search.php:6
+msgid "Search Results for: "
+msgstr ""
+
+#: 404.php:18 searchform.php:3 theme-includes/helpers.php:141
+msgid "Search..."
+msgstr ""
+
+#: theme-includes/menus.php:14
+msgid "Secondary Menu"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:159
+msgid "Select an alternate footer for this page."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:30
+msgid "Select an alternate header style for page."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:158
+msgid "Select Custom Footer:"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1468
+msgid "Select Footer"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1403
+msgid "Select Footer 404 page"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:47
+msgid "Select Nav Align for this page header."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:816
+msgid "Select the Blog and Archives page layout."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:843
+msgid "Select the blog display style."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:67
+msgid "Select the Logo Color Scheme for this page header."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1370
+msgid "Select the Product Catalog page layout."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1048
+msgid "Select the Single Post layout."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:188
+msgid "Select to adjust title position."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:183
+msgid "Select to display the page title above the main entry content."
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:104
+msgid "Select to set header width full for this page."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:463
+#: theme-includes/customizer/customizer.php:531
+#: theme-includes/customizer/customizer.php:641
+msgid "Semibold: 600"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:286
+msgid "Shopping cart in header"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:344
+msgid "Shopping cart in header top bar"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:144
+msgid "Shopping cart in header?"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:194
+msgid "Side Padding"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:41
+msgid "Sidebar Header"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1036
+msgid "Single Post"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1047
+msgid "Single Post layout"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1448
+msgid "Smooth Scroll"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:260
+msgid "Social Icons in header"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:357
+msgid "Social Icons in header top bar"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:130
+msgid "Social Icons in header?"
+msgstr ""
+
+#: theme-includes/menus.php:17
+msgid "Social Menu"
+msgstr ""
+
+#: 404.php:14
+msgid "Something Went Wrong!"
+msgstr ""
+
+#: search.php:66 template-parts/post/content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: page.php:47
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:848
+msgid "Stander blog"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:246
+msgid "Sticky Header"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:123
+msgid "Sticky Header?"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1000
+msgid "Tags metadata"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:116
+#: theme-includes/customizer/customizer.php:317
+msgid "Text"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:117
+#: theme-includes/customizer/customizer.php:318
+msgid "This top bar text is usually used for an email address or phone number"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1176
+msgid "Title Container Height"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1207
+msgid "Title Container Right and left Padding"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:187
+msgid "Title Position:"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:1469
+msgid "To create or customize footer click here"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:159
+msgid "To create or customize footer click me"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:304
+msgid "Top Bar"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:370
+msgid "Top bar Background Color"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:382
+msgid "Top bar Text Color"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:151
+msgid "Top Header bar?"
+msgstr ""
+
+#: theme-includes/meta/meta-page.php:38
+msgid "Top Logo"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:143
+msgid "Top Padding"
+msgstr ""
+
+#: theme-includes/customizer/customizer.php:426
+msgid "Typography"
+msgstr ""
+
+#: theme-includes/helpers.php:367
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: theme-includes/menus.php:15
+msgid "Vertical/Sidebar Menu"
+msgstr ""
+
+#: theme-includes/hooks.php:97
+msgid "very dark gray"
+msgstr ""
+
+#: theme-includes/hooks.php:92
+msgid "very light gray"
+msgstr ""
+
+#: theme-includes/sub-inc/woocommerce-template-functions.php:120
+msgid "View your shopping cart"
+msgstr ""
+
+#: 404.php:15
+msgid ""
+"We can't seem to find the page you're looking for. Go back to Homepage or "
+"contact to our Help Center."
+msgstr ""
+
+#: theme-includes/hooks.php:87
+msgid "White"
+msgstr ""
+
+#: theme-includes/class-tgm-plugin-activation.php:38
+msgid "WooCommerce"
+msgstr ""
+
+#: theme-includes/class-tgm-plugin-activation.php:43
+msgid "WooCommerce Blocks"
+msgstr ""
+
+#: theme-includes/helpers.php:530
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: theme-includes/meta/meta-boxes.php:377
+msgid "Yes, please do"
+msgstr ""
+
+#: theme-includes/hooks.php:257
+#: theme-includes/sub-inc/class-munfarid-walker-comment.php:102
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: theme-includes/hooks.php:286
+msgid "Your Comment..."
+msgstr ""
+
+#: theme-includes/hooks.php:301
+msgid "Your Email"
+msgstr ""
+
+#: theme-includes/hooks.php:298
+msgid "Your Name"
+msgstr ""
+
+#: theme-includes/hooks.php:304
+msgid "Your website"
+msgstr ""

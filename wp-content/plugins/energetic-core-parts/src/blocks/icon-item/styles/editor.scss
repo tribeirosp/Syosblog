@@ -1,0 +1,141 @@
+.editor-block-list__block[data-type="energetic-core-parts/icon-item"] {
+    padding: 0 !important;
+    margin: 0 !important;
+    .editor-block-list__block-edit {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    
+  }
+  
+  .etFontIconContainer .currentEtIcon,
+  .etCustomIconContainer .currentEtIcon {
+    padding: 20px 20px 0;
+  }
+  
+  .currentEtIcon {
+    text-align: left;
+    font-size: 24px;
+    i {
+      border: solid 1px #ddd;
+      padding: 12px;
+      border-radius: 3px;
+    }
+    img {
+      max-width: 55px;
+    }
+  }
+  
+  .eticons-tab-panel {
+    margin: 20px 0;
+    .components-tab-panel__tabs {
+      border-bottom: 1px solid #dee2e6;
+      text-align: left;
+      padding: 5px 5px 0;
+      margin-bottom: 20px;
+    }
+    .etfonticons {
+      max-height: 260px;
+      overflow: auto;
+    }
+    button {
+      margin-right: 10px;
+      border: 1px solid transparent;
+      border-radius: 4px 4px 0 0;
+      background: #f2f2f2;
+      font-weight: 500;
+      padding: 0.5rem 0.5rem;
+      margin-bottom: -1px;
+      border-color: #dee2e6 #dee2e6 #dee2e6;
+      cursor: pointer;
+    }
+    button.active-tab {
+      color: #495057;
+      background-color: #fff;
+      border-color: #dee2e6 #dee2e6 #fff;
+    }
+    button:hover {
+      background: #fafafa;
+    }
+    button:focus {
+      outline: 0;
+    }
+  }
+  
+  .etsearchiconfrom {
+    max-width: 100%;
+    width: 298px;
+    padding: 12px 15px !important;
+    margin-bottom: 12px;
+    border-radius: 2px;
+  }
+  
+  .etfonticons {
+    a {
+      width: 40px;
+      padding: 10px 8px;
+      margin: 5px;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 18px;
+      color: #555;
+      box-shadow: 0 0 0 1px #ddd;
+      color: inherit;
+      display: inline-block;
+      &:hover {
+        background: #f4f4f4;
+      }
+    }
+    a[attr-etfonticon="current"] {
+      box-shadow: 0 0 0 1px #0073aa;
+    }
+  }
+  .et-icon {
+    cursor: pointer;
+  }
+  .et-icon-link {
+    position: relative;
+    .editor-url-input {
+      margin-top: 5px;
+    }
+  }
+  .add-eticon-btn {
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+  }
+  
+  .mediaUpload-img-selected {
+    position: relative;
+    button {
+      &.mediaUpload-img-remove {
+        background-color: red;
+        border: 2px red solid;
+        color: #fff;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+  
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
